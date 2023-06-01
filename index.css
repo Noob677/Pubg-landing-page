@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "norse";
+    src: url(Font/norse.ttf) format(truetype),
+         url(Font/norse.woff) format(woff),
+         url(Font/norse.woff2) format(woff2);
+}
+:root{
+    --text-color: #FFBA52;
+    --font:"norse";
+    --second-font:"Quantico";
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background: #0a0a0a;
+    color: white;
+}
+body{
+    background: #2E2E2E;
+    font-size: 1.6rem;
+    color: white;
+}
+
+header{
+    background: linear-gradient(50deg,rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(image/background-img.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 75px;
+    text-transform: uppercase;
+}
+header nav a{
+    text-decoration: none;
+}
+header .logo ,header nav .logo a{
+    font-family: var(--font);
+    font-size: 5rem;
+    color: var(--text-color);
+}
+header .logo{
+    border-bottom: 4px solid var(--text-color);
+    border-radius: 4px;
+}
+header .sign-up , header .sign-up a{
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+
+header .hero{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-family: var(--second-font);
+    font-weight: 700;
+    padding-left:75px ;
+}
+header .hero-content h1{
+    font-size: 3.5rem;
+    padding: 10px 0;
+}
+header .hero-content h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header .hero img{
+    height: 450px;
+}
+header .hero .brian{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+/* Call To Action */
+.cta {
+    margin-top: 20px;
+}
+.cta a{
+    background: var(--text-color);
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+
+.about , .img-cta{
+    font-size: 3.5rem;
+    font-family: var(--second-font);
+    font-weight: 700;
+    margin-top: 50px;
+}
+.about .about-para{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-cta{
+    text-align: center;
+}
+.img-cta .image img{
+    height: 500px;
+}
+.img-cta .image .look-right{
+    transform: scalex(-1);
+}

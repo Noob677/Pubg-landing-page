@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "norse";
+    src: url(../Font/norse.ttf) format(truetype),
+    url(../Font/norse.woff) format(woff),
+    url(../Font/norse.woff2) format(woff2);
+}
+:root{
+    --font:"norse";
+    --font-two:'Quantico';
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    background: #2E2E2E;
+    background: linear-gradient(50deg,rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../image/background-img.jpg) no-repeat center;
+    background-size: cover;
+    font-size: 1.6rem;
+    font-family: var(--font-two);
+    color: white;
+    margin-top: 100px;
+}
+.text{
+    font-size: 3rem;
+    text-align: center;
+}
+.background img{
+    height: 600px;
+}
+.background .stewie{
+    transform: scaleX(-1);
+    float: right;
+}
+.text .input {
+    position: relative;
+    top: 200px;
+}
+.text .input input{
+    width: 500px;
+    padding: 20px;
+}
+.text .input label{
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 5rem;
+    font-weight: 700;
+
+}
