@@ -187,9 +187,16 @@ header .hero .brian{
         margin-top: 10px;
     }
     .img-cta .image img{
-        height: 100px;
+        height: 200px;
     }
-        .img-cta .cta-bottom a{
+
+}
+
+@media(max-width:380px){
+    .img-cta .image img{
+        height: 150px;
+    }
+    .img-cta .cta-bottom a{
         padding: 0 5px;
     }
 }
