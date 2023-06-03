@@ -192,3 +192,12 @@ header .hero .brian{
 
 }
 
+@media(max-width:380px){
+    .img-cta .image img{
+        height: 150px;
+    }
+    .img-cta .cta-bottom a{
+        padding: 0 5px;
+    }
+}
+
