@@ -192,7 +192,7 @@ header .hero .brian{
 
 }
 
-@media(max-width:380px){
+@media(max-width:400px){
     .img-cta .image img{
         height: 150px;
     }
