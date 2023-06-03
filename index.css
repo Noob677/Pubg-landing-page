@@ -119,3 +119,76 @@ header .hero .brian{
 .img-cta .image .look-right{
     transform: scalex(-1);
 }
+
+
+/* Header Nav HeroSection */
+@media(max-width:1430px){
+    header .brian{
+        display: none;
+    }
+}
+@media(max-width:850px){
+    header .logo ,header nav .logo a{
+        font-size: 3.5rem;
+    }
+    header .sign-up , header .sign-up a{
+        font-size: 2.5rem;
+    }
+    .about{
+        font-size: 2.5rem;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about .about-para{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:680px){
+    header nav{
+        padding: 10px 20px;
+    }
+    header .hero{
+        height: 400px;
+        padding-left:20px ;
+    }
+    header .hero-content h1{
+        font-size: 3rem;
+    }
+    header .hero-content h2{
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    .about{
+        font-size: 2rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .about .about-para{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* Image-call to action */
+@media(max-width:930px){
+    .about .img-cta .image{
+        margin-top: 10px;
+    }
+    .img-cta .image img{
+        height: 300px;
+    }
+}
+
+@media(max-width:560px){
+    .about .img-cta .image{
+        margin-top: 10px;
+    }
+    .img-cta .image img{
+        height: 200px;
+    }
+
+}
+
